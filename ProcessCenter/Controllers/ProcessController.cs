@@ -1,12 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CommandCenter.Entity;
+using Microsoft.AspNetCore.Mvc;
 using ProcessCenter.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using static ProcessCenter.Infrastructure.Dtos;
 using ProcessCenter.Infrastructure;
-using CommandCenter.Entity;
+using static ProcessCenter.Infrastructure.Dtos;
 
 namespace ProcessCenter.Controllers
 {
@@ -29,6 +25,7 @@ namespace ProcessCenter.Controllers
             {
                 return BadRequest();
             }
+
             var processEntities = await repository.GetAllAsync(a => a.DroneId == droneId);
             var itemIds = processEntities.Select(a => a.OrderId);
             var orderEntities = await orderRepository.GetAllAsync(a => itemIds.Contains(a.Id));

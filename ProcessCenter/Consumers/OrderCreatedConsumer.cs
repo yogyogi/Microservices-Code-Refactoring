@@ -1,11 +1,6 @@
-﻿using Infrastructure;
+﻿using CommandCenter.Entity;
+using Infrastructure;
 using MassTransit;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ProcessCenter.Entity;
-using CommandCenter.Entity;
 
 namespace ProcessCenter.Consumers
 {

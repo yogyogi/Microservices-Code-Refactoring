@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Microservices\\NuGet Package\\Common\\Common.csproj": {}
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\hosting\\CodeRefactoring\\Common\\Common.csproj": {}
   },
   "projects": {
-    "E:\\Yogesh\\SEO\\Yogihosting\\new\\Microservices\\NuGet Package\\Common\\Common.csproj": {
+    "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\hosting\\CodeRefactoring\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Microservices\\NuGet Package\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\hosting\\CodeRefactoring\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Microservices\\NuGet Package\\Common\\Common.csproj",
+        "projectPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\hosting\\CodeRefactoring\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Avita\\.nuget\\packages\\",
-        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\new\\Microservices\\NuGet Package\\Common\\obj\\",
+        "outputPath": "E:\\Yogesh\\SEO\\Yogihosting\\codes-new\\hosting\\CodeRefactoring\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Avita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\commonpackage": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,32 +37,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "MassTransit.AspNetCore": {
-              "target": "Package",
-              "version": "[7.1.8, )"
-            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
-              "version": "[7.1.8, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[8.1.2, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[8.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.12.2, )"
+              "version": "[2.22.0, )"
             }
           },
           "imports": [
@@ -72,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
