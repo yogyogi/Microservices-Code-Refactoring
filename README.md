@@ -1,6 +1,8 @@
 # ASP.NET Core Microservices Code Refactoring into Reusable NuGet Package
 In this tutorial we will perform code refactoring for our ASP.NET Core Microservices. Since the Microservices are using same code, so we will move this code to a NuGet package and reference this code from the NuGet Package.
 
+**Repository is updated to .NET 8.0**
+
 Read the entire article here - https://www.hosting.work/aspnet-core-microservices-code-refactoring-nuget-package/
 
 # Tutorial Contents
